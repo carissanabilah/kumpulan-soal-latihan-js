@@ -1,0 +1,19 @@
+{
+    "name": "kumpulan-soal-latihan-jawaban",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "vitest",
+        "coverage": "vitest run --coverage"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "packageManager": "pnpm@10.15.1",
+    "devDependencies": {
+        "@vitest/coverage-v8": "3.2.4",
+        "vitest": "^3.2.4"
+    }
+}
