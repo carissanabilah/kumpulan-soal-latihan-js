@@ -84,5 +84,5 @@ test.each([
     [haystack_3, 30],
     [haystack_4, 5]
 ])("Jarum ditumpukan jerami", (haystack, index) => {
-    expect(findNeedle(haystack)).toBe(`jarum ditemukan di index-${index}`)
+    expect(findNeedle(haystack)).toBe(`menemukan jarum di posisi ${index}`)
 })
