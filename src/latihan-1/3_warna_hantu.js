@@ -25,6 +25,13 @@
 // npx vitest run latihan-1/3_warna_hantu
 function warna_hantu() {
     // Tulis kode disini
+    let warna = ["white", "yellow", "purple", "red"]
+    const max = 3
+    const min = 0
+    let angka = Math.floor(Math.random() * (max - min + 1)) + min
+
+    return warna[angka]
 }
 
+console.log(warna_hantu())
 export default warna_hantu

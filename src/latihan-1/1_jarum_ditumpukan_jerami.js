@@ -9,6 +9,12 @@
 // npx vitest run latihan-1/1_jarum_ditumpukan_jerami
 function findNeedle(tumpukan_jerami) {
     // Tulis kode disini
+
+    for (let i = 0;i < tumpukan_jerami.length; i++) {
+        if (tumpukan_jerami[i] === "jarum") {
+            return `menemukan jarum di posisi ${i}`
+        }
+    }
 }
 
 export default findNeedle
