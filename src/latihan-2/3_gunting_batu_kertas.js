@@ -18,8 +18,18 @@ function suit(p1, p2) {
     function pemenang(pemain) {
         return `Pemain ${pemain} menang!`
     }
-
-    // Tulis kode disini
+    if (p1 === p2) {
+        return "Draw!"
+    }
+    if (
+        (p1 === "gunting" && p2 === "kertas") ||
+        (p1 === "batu" && p2 === "gunting") ||
+        (p1 === "kertas" && p2 === "batu")
+    ) {
+        return pemenang(1)
+    } else {
+        return pemenang(2)
+    }
 }
 
 export default suit
